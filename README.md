@@ -1,8 +1,6 @@
 # Config_JAVA_WEB
 [![.github/workflows/ci.yml](https://github.com/github/gh-actions-importer/actions/workflows/ci.yml/badge.svg)](https://github.com/github/gh-actions-importer/actions/workflows/ci.yml)
 
-[GitHub Actions Importer](https://docs.github.com/en/actions/migrating-to-github-actions/automating-migration-with-github-actions-importer) helps plan, test, and automate your migration to GitHub Actions from the following platforms:
-
 ## Config jsp 
 ```
 spring.mvc.view.prefix: /WEB-INF/view/
