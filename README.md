@@ -27,7 +27,7 @@ spring.mvc.view.suffix: .jsp
     <version>2.0.0</version>
 </dependency>
 
-<!--Spring Validato-->
+<!--Spring Validator-->
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-validation</artifactId>
