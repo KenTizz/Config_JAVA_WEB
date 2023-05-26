@@ -46,11 +46,19 @@ spring.mvc.view.suffix: .jsp
 <artifactId>spring-boot-starter-data-jpa</artifactId>
 </dependency>
 ```
-## Loop - JSTL 
+## Loop - JSTL - c
 ```
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 ```
-
+## Loop - JSTL - f
+```
+<%@ taglib prefix="f" uri="http://java.sun.com/jsp/jstl/functions" %>
+```
+## Loop - JSTL - fmt
+```
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<fmt:formatDate value="${nv.ngaySinh}" pattern="dd/MM/yyyy"/>
+```
 ## Form - JSTL 
 ``` 
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
