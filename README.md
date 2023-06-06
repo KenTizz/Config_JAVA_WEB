@@ -1,4 +1,5 @@
 # Config_JAVA_WEB
+[![.github/workflows/ci.yml](https://github.com/github/gh-actions-importer/actions/workflows/ci.yml/badge.svg)](https://github.com/github/gh-actions-importer/actions/workflows/ci.yml)
 
 ## Config jsp 
 ```
@@ -27,7 +28,7 @@ spring.mvc.view.suffix: .jsp
     <version>2.0.0</version>
 </dependency>
 
-<!--Spring Validato-->
+<!--Spring Validator-->
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-validation</artifactId>
