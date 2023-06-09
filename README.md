@@ -1,11 +1,14 @@
 # Config_JAVA_WEB
+
 [![.github/workflows/ci.yml](https://github.com/github/gh-actions-importer/actions/workflows/ci.yml/badge.svg)](https://github.com/github/gh-actions-importer/actions/workflows/ci.yml)
 
-## Config jsp 
+## Config jsp
+
 ```
 spring.mvc.view.prefix: /WEB-INF/view/
 spring.mvc.view.suffix: .jsp
 ```
+
 ## Full Config
 
 ```
@@ -36,31 +39,55 @@ spring.mvc.view.suffix: .jsp
 
 <!--SQL SERVER-->
 <dependency>
-<groupId>com.microsoft.sqlserver</groupId>
-<artifactId>mssql-jdbc</artifactId>
-<version>9.4.1.jre16</version>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>9.4.1.jre16</version>
 </dependency>
 
 <!--JPA-->
 <dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-data-jpa</artifactId>
+    <groupId>org.springframework.boot</groupId>
+    ****<artifactId>spring-boot-starter-data-jpa</artifactId>
 </dependency>
 ```
+
+## Spring - Security
+
+```
+<!--Spring Security-->
+<dependency>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-config</artifactId>
+    <version>6.0.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+```
+
 ## Core - JSTL
+
 ```
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 ```
+
 ## Function - JSTL
+
 ```
 <%@ taglib prefix="f" uri="http://java.sun.com/jsp/jstl/functions" %>
 ```
+
 ## Formatting - JSTL
+
 ```
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <fmt:formatDate value="${nv.ngaySinh}" pattern="dd/MM/yyyy"/>
 ```
-## Form - JSTL 
+
+## Form - JSTL
+
 ``` 
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 ```
